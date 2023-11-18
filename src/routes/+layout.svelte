@@ -1,10 +1,10 @@
 <script>
-	import { ModeWatcher } from "mode-watcher";
+	import { onNavigate } from '$app/navigation';
+	import { onMount } from "svelte";
 	import SiteHeader from '$lib/components/site-header.svelte';
 	import SiteFooter from '$lib/components/site-footer.svelte';
+	import { ModeWatcher, setMode } from "mode-watcher";
 	import '../app.postcss';
-
-	import { onNavigate } from '$app/navigation';
 
 	onNavigate((navigation) => {
 		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -20,6 +20,10 @@
 			});
 		});
 	});
+
+	onMount(() => {
+    setMode("dark");
+  });
 </script>
 
 <ModeWatcher />

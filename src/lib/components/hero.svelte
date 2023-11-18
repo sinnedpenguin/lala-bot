@@ -5,13 +5,13 @@
 
 <section class="container flex flex-col items-center justify-center gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-8 lg:py-20 h-[95vh]">
   <div>
+    <Sources />
     <h1 class="scroll-m-20 text-6xl font-extrabold tracking-tight lg:text-7xl">
       {siteConfig.title}
     </h1>
     <p class="text-muted-foreground text-lg">
       {siteConfig.description}
     </p>
-    <Sources />
   </div>
   <div>
     <a 
