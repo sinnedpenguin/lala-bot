@@ -2,7 +2,7 @@
 
 A Discord music bot.
 
-![Screenshot 2023-11-14 221450](https://github.com/sinnedpenguin/lala-bot/assets/133164950/31c1acf3-1c34-44c5-815c-fc808a18bc08)
+![image](https://github.com/sinnedpenguin/lala-bot/assets/133164950/8e9d8510-8f55-467c-acf1-a6bbc726b759)
 
 ##
 
